@@ -1,0 +1,21 @@
+
+@import 'colors.css';
+.nemo-window .nemo-window-pane .view:not(.rubberband):not(:selected) {
+    background-color: #24273a;
+}
+.rubberband {
+    background-color: rgba(194, 157, 241, 0.5);
+}
+
+.sidebar {
+    background-color: rgba(26, 24, 35, 0.8)
+}
+
+:selected {
+    color: #dfe3ff;
+    background-color: #532e85;
+}
+
+.nemo-desktop-item {
+    color: #dfe3ff;
+}
